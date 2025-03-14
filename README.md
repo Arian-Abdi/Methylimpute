@@ -112,7 +112,6 @@ Options: Combines all options from the map and impute commands, plus:
 ## Performance Considerations
 
 - For large datasets (>100K probes), increase the `--jobs` parameter to use multiple CPU cores
-- Consider using the `--save-chunks` option to process and save chromosomes individually
 - Adjust the `--threshold` parameter to control row filtering based on missing data
 ```
 
